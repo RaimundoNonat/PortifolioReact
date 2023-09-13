@@ -1,0 +1,13 @@
+footer {
+    padding: 3%;
+    background-color: rgb(92, 96, 102);
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 1rem;
+}

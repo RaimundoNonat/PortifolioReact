@@ -1,0 +1,40 @@
+.cabecalho {
+    color: black;
+    font-family: 'Aboreto';
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+    font-size: 20px;
+}
+
+.cabecalho h1 {
+    border-bottom: 1px solid black;
+    margin: 0% 35% 0% 35%;
+}
+
+@media (max-width: 1368px) {
+
+    /* Header */
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .cabecalho h1 {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    /* Header */
+    .cabecalho h1 {
+        font-size: 16px;
+    }
+}
