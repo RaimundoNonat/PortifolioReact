@@ -1,11 +1,17 @@
-import './Estilo.css'
+import styled from 'styled-components'
 
+const PetshopStyled = styled.div`
+    background-color: grey;
+    h1 {
+        color: white;
+    }
+`
 
 function PetshopSite() {
     return(
-        <div>
+        <PetshopStyled>
             <h1>Em construção....</h1>
-        </div>
+        </PetshopStyled>
     )
 }
 
