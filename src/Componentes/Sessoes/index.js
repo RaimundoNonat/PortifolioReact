@@ -3,6 +3,10 @@ import styled from 'styled-components'
 // componentes
 import PetshopImg from '../Imagens/petshop.png'
 import ComprasImg from '../Imagens/compras.png'
+import PlanImg from '../Imagens/5g.png'
+import InvestimentosImg from '../Imagens/investimento.png'
+import cronometroImg from '../Imagens/cronometro.png'
+import calculadoraImg from '../Imagens/calculadora.png'
 
 const SessaoStyled = styled.section`
     nav {
@@ -112,12 +116,12 @@ function Sessoes() {
                 <div>
                     <h4>PLAN</h4>
                     <p>Site foi desenvolvido utilizando HTML/CSS e JavaScript.</p>
-                    <img src={PetshopImg} alt="petshop" />
+                    <img src={PlanImg} alt="petshop" />
                 </div>
                 <div>
                     <h4>RH Investimentos</h4>
                     <p>Site foi desenvolvido utilizando HTML/CSS e JavaScript.</p>
-                    <img src={ComprasImg} alt="compras" />
+                    <img src={InvestimentosImg} alt="compras" />
                 </div>
             </nav>
 
@@ -125,12 +129,12 @@ function Sessoes() {
                 <div>
                     <h4>Cronômetro</h4>
                     <p>Este site foi desenvolvido utilizando HTML/CSS e JavaScript.</p>
-                    <img src={PetshopImg} alt="petshop" />
+                    <img src={cronometroImg} alt="petshop" />
                 </div>
                 <div>
                     <h4>Calculadora de IMC</h4>
                     <p>Site foi desenvolvido utilizando HTML/CSS e JavaScript.</p>
-                    <img src={ComprasImg} alt="compras" />
+                    <img src={calculadoraImg} alt="compras" />
                 </div>
             </nav>
         </SessaoStyled>
